@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8" />
+   <title>Contact Me</title>
+  </head>
+<body>
+  <h1>My Contact Details</h1>
+  <p>
+    Address: Ward no.4, V.P.O Kuloth Khurd, Teh. Surajgarh, Distt. Jhunjhunu(RAJ), pincode:333033
+  </p>
+  <p>
+    Mob no. 7742213592
+  </p>
+  <p>
+    gmail:deepakdudi10021999@gmail.com
+  </p>
+
+  <!--<form class="" action="index.html" method="post">
+       as we write action="index.html" so when we click on submit button we go to our index.html page as we write it in action(i.e the thing we want to happen when clickin on the submit button)-->
+<form class="" action="mailto:deepakdudi10021999@gmail.com" method="post" enctype="text/plain">
+  <!-- so here in action we use "mailto:xyz" so, mailto is used to send the form to the given mail address-->
+    <label>Your Name:</label>
+    <input type="text" name="yourname" value="" />  <br />
+    <label>Your Email:</label>
+    <input type="email" name="youremail" value="" /> <br />
+    <label>Your Message:</label>  <br />
+    <textarea name="yourmessage" rows="10" cols="30"></textarea><br />
+    <input type="submit" name="" />
+    <!-- so, 'name' attribute contains the name for the input that is displayed on the server side. when getting that field and we get that field under the given name in the name attribute-->
+  </form>
+
+</body>
+</html>

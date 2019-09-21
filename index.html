@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Deepak's personal site</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+  <tr>
+  <!-- <img src="https://..."> where img is the html element; src is the html attribute; and http://... is the source address -->
+<!--  <img src="deepak_image.jpg" alt="Deepak Dudi profile picture">
+ if the image is in the same folder(i.e udemy_webdev_project) as of the html page(i.e imdex.html) -->
+  <td> <img src="myimage/deepak_image.jpg" alt="Deepak profile picture" style="border-radius:75%" /> </td>
+<!-- as the image is in the same folder as of html page but the folder was there in which the image was there at the same level as of the html page so we have to write the address of the location of the image from the level of the html page. -->
+<!-- the style is the attribute to denote the stylesheet and the border-radius attribute is used to crop the image in a rounded size (i.e to make the square image rounded) -->
+  <td> <h1>Deepak Kumar Dudi</h1>
+  <p>
+
+    <!--<a href="https://...">hello</a>  so here 'a' is the html element; href is the html attribute; "https://..." is the link destination on which we will reached by clicking the link ; 'hello' is the link text that is displayed at the page -->
+    <!--<a download href="https://...">xyz</a>  or  <a href="https://..." download>xyz</a> so this 'download' attribute direct download the file on the link instead of opening the file as we see on many sites that directly download pdf on clicking the link -->
+    <em>An student at <strong><a href="https://bkbiet.ac.in">Birla Institute Of Engineering & Technology,Pilani(RAJ)</a></strong></em>
+  </p>
+  <p>
+    I am an Software Developer. I &#128154 to do programming.
+  </p>  </td>
+  </tr>
+  </table>
+
+  <hr>
+  <!-- <hr /> is similat to <hr> as these tags do not required any closing tag so both are correct for these types of tab -->
+  <h3>Skills</h3>
+ <table cellspacing="10">
+  <tr>
+    <td>C language</td>
+    <td>⭐⭐⭐⭐</td>
+   <tr>
+    <td>Data structure and algorithm in c</td>
+    <td>⭐⭐⭐</td>
+   </tr>
+   <tr>
+    <td>Web Development</td>
+    <td>⭐⭐⭐⭐</td>
+   </tr>
+ </table>
+<hr />
+<h3>Work Experience</h3>
+<!-- <table border="1"> -->
+<table cellspacing="10">
+  <thead>
+    <tr>
+      <th>Dates</th>
+      <th>Trainings</th>
+    </tr>
+  </thead>
+  <!--<thead> </tbody>       <tfoot> </tfoot>-->
+  <tr>
+    <td>may-june(2019)</td>
+    <td>Done training in embedded systems & robotics at techienestl,jaipur</td>
+  </tr>
+  <tr>
+    <td>august-sepetember(2019)</td>
+    <td>Done training in machine learning & data science in python from techienest</td>
+  </tr>
+</table>
+
+<hr />
+<a href="hobbies.html">My Hobbies</a>  <br />
+<a href="contact_me.html">Contact Me</a>
+
+</body>
+</html>
